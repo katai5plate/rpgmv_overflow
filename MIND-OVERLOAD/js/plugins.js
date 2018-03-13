@@ -3,8 +3,9 @@
 var $plugins =
 [
 {"name":"Community_Basic","status":true,"description":"基本的なパラメーターを設定するプラグインです。","parameters":{"cacheLimit":"20","screenWidth":"816","screenHeight":"624","changeWindowWidthTo":"","changeWindowHeightTo":"","renderingMode":"auto","alwaysDash":"off"}},
-{"name":"Yami_SkipTitle","status":false,"description":"テストプレイ用にタイトルシーンを飛ばすことができます。","parameters":{}},
 {"name":"API","status":true,"description":"","parameters":{}},
 {"name":"PrefabPict","status":true,"description":"","parameters":{}},
-{"name":"prePictures","status":true,"description":"","parameters":{}}
+{"name":"prePictures","status":true,"description":"","parameters":{}},
+{"name":"Yami_SkipTitle","status":true,"description":"テストプレイ用にタイトルシーンを飛ばすことができます。","parameters":{}},
+{"name":"H2A_FaceTemplate","status":true,"description":"顔グラフィック付き文章にキャラ名を自動挿入します。","parameters":{"Face Template":"[\"{\\\"actor\\\":\\\"1\\\",\\\"face\\\":\\\"ruby_new\\\",\\\"style_color\\\":\\\"[2,0]\\\",\\\"style_size\\\":\\\"[0,0]\\\"}\",\"{\\\"actor\\\":\\\"2\\\",\\\"face\\\":\\\"python_radio\\\",\\\"style_color\\\":\\\"[4,0]\\\",\\\"style_size\\\":\\\"[0,0]\\\"}\"]","Indent":"{\"template\":\"0\",\"text\":\"1\"}"}}
 ];

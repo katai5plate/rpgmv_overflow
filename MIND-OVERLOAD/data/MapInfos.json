@@ -6,7 +6,7 @@ null,
 {"id":4,"expanded":false,"name":"MAP004","order":8,"parentId":8,"scrollX":893.4545454545455,"scrollY":502.90909090909093},
 {"id":5,"expanded":false,"name":"コンピュータールーム","order":9,"parentId":8,"scrollX":973.1999999999999,"scrollY":886.8},
 {"id":6,"expanded":false,"name":"テストルーム","order":1,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":7,"expanded":true,"name":"チュートリアル","order":2,"parentId":0,"scrollX":926,"scrollY":776},
-{"id":8,"expanded":false,"name":"gomibako","order":4,"parentId":0,"scrollX":982.8,"scrollY":553.1999999999999},
-{"id":9,"expanded":false,"name":"チューニングルーム","order":3,"parentId":7,"scrollX":832,"scrollY":640}
+{"id":7,"expanded":true,"name":"チュートリアル","order":2,"parentId":0,"scrollX":1390.2857142857142,"scrollY":1715.142857142857},
+{"id":8,"expanded":false,"name":"gomibako","order":4,"parentId":0,"scrollX":595.6363636363636,"scrollY":335.6363636363636},
+{"id":9,"expanded":false,"name":"チューニングルーム","order":3,"parentId":7,"scrollX":595.6363636363636,"scrollY":335.6363636363636}
 ]
