@@ -1,5 +1,6 @@
 [
 null,
 {"id":1,"battlerName":"","characterIndex":0,"characterName":"act","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"ruby_new","traits":[],"initialLevel":1,"maxLevel":99,"name":"RUBY","nickname":"","note":"","profile":""},
-{"id":2,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"python_radio","traits":[],"initialLevel":1,"maxLevel":99,"name":"PYTHON","nickname":"","note":"","profile":""}
+{"id":2,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"python_radio","traits":[],"initialLevel":1,"maxLevel":99,"name":"PYTHON","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":1,"faceName":"Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"スライム","nickname":"","note":"","profile":""}
 ]
