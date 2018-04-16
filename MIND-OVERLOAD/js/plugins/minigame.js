@@ -210,7 +210,9 @@ var Minigame = Minigame || {};
 			for(var ti=0;ti<txt.length*sc;ti++){
 				var tv = txt[ti];
 				if(ti>(txt.length*sc)-1){
-					tv += parseInt(new Date()/100)%2==0 ? "_" : "";
+					tv += " #EOC#"+(parseInt(new Date()/100)%2==0 ? "_" : "");
+				}else{
+					tv += " #LF#";
 				}
 				ctx.fillText(tv,0,16+ti*16);
 			}
