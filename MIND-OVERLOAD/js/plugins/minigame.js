@@ -119,8 +119,10 @@ var Minigame = Minigame || {};
 	
 	Minigame.main = {
 		isHacked:false,
-		start:function(){
+		wasMissed:false,
+		start:function(superReset){
 			this.isHacked = false;
+			if(superReset) this.wasMissed = false;
 			var l = Minigame.level;
 			l.maplog = l.maplogEmpty();
 			l.player.next = 1;
@@ -178,6 +180,7 @@ var Minigame = Minigame || {};
 			}
 			var reset = function(){
 				AudioManager.playSe({"name":sound.reset,"volume":90,"pitch":100,"pan":0});
+				Minigame.main.wasMissed = true;
 				Minigame.main.start();
 			};
 			var common = function(){
