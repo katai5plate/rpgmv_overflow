@@ -8,6 +8,14 @@ var prePictures = prePictures || {};
             "light_grape",
             "light_white",
             "light_yellow",
+            "map_mov_01",
+            "map_mov_02",
+            "map_mov_03",
+            "map_mov_04",
+            "map_mov_04b",
+            "map_mov_04c",
+            "map_mov_04d",
+            "map_mov_05",
             "p0-0",
             "p1-1",
             "p1-2",
@@ -46,13 +54,13 @@ var prePictures = prePictures || {};
             "test02",
             "test03",
         ],
-        HERE_WE_GO:function(){
-            for(var i=0;i<this.baffers.length;i++){
+        HERE_WE_GO: function () {
+            for (var i = 0; i < this.baffers.length; i++) {
                 var v = this.baffers[i];
                 ImageManager.loadPicture(v);
-                console.log("Loading:\t"+v);
+                console.log("Loading:\t" + v);
                 Game_Interpreter.prototype.setWaitMode("image");
-                console.log("EndWait:\t"+v);
+                console.log("EndWait:\t" + v);
             }
         },
     };
