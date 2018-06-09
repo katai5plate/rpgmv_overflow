@@ -53,6 +53,7 @@ var prePictures = prePictures || {};
             "test01",
             "test02",
             "test03",
+            "nowloading",
         ],
         HERE_WE_GO: function () {
             for (var i = 0; i < this.baffers.length; i++) {
