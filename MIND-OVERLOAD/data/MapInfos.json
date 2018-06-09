@@ -25,10 +25,10 @@ null,
 {"id":23,"expanded":true,"name":"L-01-Way","order":21,"parentId":18,"scrollX":567.4285714285714,"scrollY":777.4285714285713},
 {"id":24,"expanded":true,"name":"L-01-Way","order":19,"parentId":18,"scrollX":567.4285714285714,"scrollY":777.4285714285713},
 {"id":25,"expanded":true,"name":"MAP025","order":25,"parentId":0,"scrollX":1092,"scrollY":615.3333333333334},
-{"id":26,"expanded":true,"name":"AREA-01","order":26,"parentId":25,"scrollX":1589,"scrollY":1107.5},
+{"id":26,"expanded":true,"name":"AREA-01","order":26,"parentId":25,"scrollX":811,"scrollY":1107.5},
 {"id":27,"expanded":false,"name":"倉庫番リセット","order":27,"parentId":26,"scrollX":819,"scrollY":461.5},
-{"id":28,"expanded":true,"name":"AREA-02","order":28,"parentId":25,"scrollX":1946.3999999999999,"scrollY":1107.6},
-{"id":29,"expanded":false,"name":"倉庫番リセット","order":29,"parentId":28,"scrollX":1092,"scrollY":615.3333333333334},
+{"id":28,"expanded":true,"name":"AREA-02","order":28,"parentId":25,"scrollX":1346,"scrollY":1833.5},
+{"id":29,"expanded":false,"name":"倉庫番リセット","order":29,"parentId":28,"scrollX":819,"scrollY":461.5},
 {"id":30,"expanded":false,"name":"エンディング","order":30,"parentId":28,"scrollX":1965.6,"scrollY":1107.6},
 {"id":31,"expanded":false,"name":"ろーる","order":31,"parentId":28,"scrollX":819,"scrollY":445.5}
 ]
