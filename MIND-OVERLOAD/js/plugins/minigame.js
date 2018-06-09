@@ -14,7 +14,7 @@ var Minigame = Minigame || {};
 		move: "type_02",
 		clear: "Decision1",
 		reset: "Magic1",
-		number: "CurSor3",
+		number: "Cursor3",
 	}
 
 	var rgb = function (r, g, b, a) {
