@@ -14,6 +14,7 @@ var Minigame = Minigame || {};
 		move: "type_02",
 		clear: "Decision1",
 		reset: "Magic1",
+		number: "CurSor3",
 	}
 
 	var rgb = function (r, g, b, a) {
@@ -196,6 +197,7 @@ var Minigame = Minigame || {};
 				if (!isNaN(l.map[l.player.pos.y][l.player.pos.x]) && l.map[l.player.pos.y][l.player.pos.x] != " ") {
 					var n = Number(l.map[l.player.pos.y][l.player.pos.x]);
 					if (l.player.next == n) {
+						AudioManager.playSe({ "name": sound.number, "volume": 90, "pitch": 100, "pan": 0 });
 						l.player.next++;
 					} else {
 						reset();
@@ -215,7 +217,7 @@ var Minigame = Minigame || {};
 			var txt = effectSrc;
 
 			//背景
-			ctx.fillStyle = rgb(0, 0, 0, 0.5);
+			ctx.fillStyle = rgb(0, 0, 0, 0.85);
 			ctx.fillRect(0, 0, width, height);
 
 			//残り面数
@@ -269,6 +271,13 @@ var Minigame = Minigame || {};
 				}
 				ctx.fillText(tv, 0, 16 + ti * 16);
 			}
+
+			//チュートリアル
+			ctx.fillStyle = rgb(0, 0, 0, 0.5);
+			ctx.fillRect(0, height - (18 * 3), width, height);
+			ctx.fillStyle = rgb(0, 255, 0, 1);
+			ctx.font = "18px serif";
+			ctx.fillText("　一筆書きで全マスを埋めろ：方向キー or 十字ボタンで 移動 / Xキー or キャンセルボタンで 中断", 0, height - 18);
 
 			//PLAYER
 			if (Input.isTriggered("left")) {
